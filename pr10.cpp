@@ -10,8 +10,7 @@ int main(){
     while(1){
         cout<<"\n1. Add patient";
         cout<<"\n2. Show patients";
-        cout<<"\n3. Delete patients";
-        cout<<"\n4. Exit";
+        cout<<"\n3. Exit";
         cout<<"\nEnter your choice - ";
         cin>>ch;
         switch (ch)
@@ -52,13 +51,7 @@ int main(){
                         }
                         cout<<"\n";
             break;
-        case 3: if(pt.empty())
-                        cout<<"\nQueue is empty !\n";
-                    else
-                            pt.pop();
-                            pr.pop();
-            break;
-        case 4: exit(1);
+        case 3: exit(1);
         default: cout<<"\nInvalid choice !\n\n";
             break;
         }
