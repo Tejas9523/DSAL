@@ -46,9 +46,9 @@ int main(){
                     else
                         while(!pt.empty()){
                             cout<<"\nPatient name : "<<pt.front();
-                            pt.pop();
+                            // pt.pop();
                             cout<<"  -  "<<pr.front();
-                            pr.pop();
+                            // pr.pop();
                         }
                         cout<<"\n";
             break;
